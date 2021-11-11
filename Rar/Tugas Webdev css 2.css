@@ -1,0 +1,116 @@
+* {padding: 0; margin: 0;}
+
+.container {width: 1000px; margin: auto;}
+
+/* ini css header */
+header {height: 125px; background: #9c88ff; overflow: hidden;}
+header .kiri img {width: 100px; height: 100px; margin: 15px 0 0 35px; float: left; clip-path: circle(50px); }
+header .kanan {font-size: 20px; color: white; float: left; margin-top: 15px; margin-left: 90px;}
+
+nav ul li { float: left; list-style: none; background: pink;}
+nav ul li :hover {background: brown;}
+
+nav ul li a {margin-right: 15px; text-decoration: none; padding: 3px 15px;}
+nav ul li a:hover {color: white;}
+
+nav ul li ul {display: none;}
+
+nav ul li:hover > ul {display: block;}
+
+nav {position: relative; background: pink; height:40px; line-height: 40px; }
+
+nav ul li ul {position: absolute;}
+
+nav ul li ul li {float:none; position: relative;}
+
+nav ul  ul  ul { left: 100%; top: 0; }
+
+
+article {overflow: hidden;}
+article h1 {color: black; margin-bottom: 10px; font-size: 30px; font-family: gambria;}
+article p {text-align: justify; margin-bottom: 15px; }
+article .kiri {float: left; width: 300px;}
+
+article .kiri .kiritengah {background: #273c75; padding: 15px; margin-top: 30px;}
+article .kiri .kiritengah h1 {color: black;}
+
+article .foto iframe {width: 300px;}
+
+article .kiri .kiritengah img {width: 65px; padding: 0 20px 0 0;}
+article .kiri .kiritengah img:hover {width: 52px;}
+
+article .kanan {float: right; width: 650px;}
+article .kanan .atas img {width: 650px; height: 340px;-webkit-mask-image: radial-gradient(circle at 35% 35%, black 30%, rgba(0, 0, 0, 0.5) 30%);}
+article .kanan .atas p {margin-top: 20px;}
+
+article .kanan .bawah {overflow: hidden; margin-top: 45px;}
+article .kanan .bawah .kiribawah {width: 300px; float: left; border-left: 3px solid green;}
+article .kanan .bawah .kananbawah {width: 300px; float: right; border-left: 3px solid green;}
+article .kanan .bawah .kananbawah img {width: 25px; margin-left: 12px;}
+article .kanan .bawah h1,p {margin-left: 13px;}
+
+article .bawahkiri {width: 260px; padding: 15px; margin-top: 300px; margin-left: 25px; float: left; border-left: 3px solid aquamarine}
+article .bawahkiri img {width: 150px; height: 100px; float: left; margin-right: 10px;}
+article .bawahtengah {width: 260px; padding: 15px; margin-top: 20px; margin-left: 25px; float:right; border-left: 3px solid aquamarine}
+article .bawahtengah img {width: 150px; height: 100px; float: left; margin-right: 10px;}
+article .bawahkanan {width: 260px; padding: 15px; margin-top: 20px; margin-left: 25px; float: right; border-left: 3px solid aquamarine}
+article .bawahkanan img {width: 150px; height: 100px; float: left; margin-right: 10px;}
+
+footer {background-color:#00a8ff; color: black; text-align: center; font-size: 15px; line-height: 40px; height: 40px; margin-top: 30px; position: sticky; bottom: 0;}
+footer a {color: black;}
+
+article div .kiritengah{
+    width: 200px;
+    left: 200px;
+    top: 80vh;
+    display: block;
+    position: fixed;
+    justify-content: center;
+}
+
+
+form {background: greenyellow; padding: 25px; width: 600px; margin: auto; border: 2px solid black; border-radius: 7px; margin-top: 25px;}
+
+.itemform {background: grey; padding: 15px; border: 1px solid seagreen; overflow: hidden; margin-top:}
+.itemform .form1 {float: left; margin-right: 30px;}
+.itemform .form1 label {display: block; line-height: 30px;}
+
+.itemform .form2 input {line-height: 26px; margin: 2px; width: 350px;}
+.itemform .form2 input.inputtext {padding: 0 0 0 10px;}
+.itemform .form2 input.inputtext:hover {background-color: hotpink; border-radius: 5px; font-size: 15px; border: 1px blue;}
+
+.tool {position: relative;}
+.tool .tips {display: inline;}
+.tool .tips span {display: none;}
+.tips:hover span {display: inline-block; background: violet; color: white; padding: 10px; font-size: 12px;}
+
+input[type=Password] {padding: 8px; margin-left: 10px; background-color: silver; color: whitesmoke;}
+
+input[type=submit], button[type=button] {padding: 8px;}
+
+input[type=submit]:hover, button[type=button]:hover {color: whitesmoke; background-color: black}
+
+.tool button:hover {transition: background 2s ease-in-out;}
+
+
+table {float: right;margin-top: 25px;}
+table {font-family: Arial, Helvetica, sans-serif;}
+
+caption {background-color: lightcyan; color: black; font-size: 26px; padding: 10px;}
+
+th, td {padding: 5px 25px; }
+
+thead {background-color: burlywood; color: black;}
+tbody {background-color: lightpink;}
+td {color: black;}
+tfoot {background-color: chartreuse; color: whitesmoke;}
+
+tbody tr td:nth-child(2) {text-align: center;}
+
+tbody tr td:nth-child(3),tbody tr td:nth-child(4) {text-align: right;}
+
+tr:nth-child(even) {background-color: white;}
+
+
+.NIM {width: 600px;  padding: 15px; margin-top: 20px; margin-left: 25px; float:right;}
+.NIM img{width: 100px; height: 100px; float: left; margin-right: 10px; }
